@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: "Violet Sans", sans-serif;
+  font-size: 16px;
+  color: #000;
+}
+
+button {
+  cursor: pointer;
+
+  &:disabled {
+    cursor: auto;
+    opacity: 0.5;
+    pointer-events: none;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+@font-face {
+  font-family: "Violet Sans";
+  src: url("VioletSans.ttf");
+}
